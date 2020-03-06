@@ -28,4 +28,4 @@ app.get('/', (req, res) => {
 });
 
 // Start Application
-app.listen(3000, '0.0.0.0', () => console.log('app listening on 3000'));
+app.listen(3000, () => console.log('app listening on 3000'));
