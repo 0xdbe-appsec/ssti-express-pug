@@ -32,7 +32,7 @@ $ node app.js
 
 * Open http://localhost:3000/?name=bob
 
-* Open http://localhost:3000/?name=%23%7B7*7%7D to test if your application is expose to SSTI (name={7*7})
+* Open http://localhost:3000/?name=%23%7B7*7%7D to test if your application is expose to SSTI (name=#{7*7})
 
 * Run SSTI attack with [tplmap](https://github.com/epinna/tplmap/blob/master/README.md)
 
